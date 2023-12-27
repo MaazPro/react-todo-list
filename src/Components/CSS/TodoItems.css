@@ -1,0 +1,40 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+.todoitems-container{
+    display: flex;
+}
+.todoitems-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+.todoItems-cross-icon{
+    cursor: pointer;
+    padding-right: 25px;
+}
+.tick-img{
+    /* padding-left: 10px; */
+}
+img{ 
+    height: 25px;
+}
+.line-through{
+    text-decoration: line-through solid #ADADAD 3px;
+}
+@media only screen and (max-width: 600px) {
+    .todoitems{
+        padding: 8px 0px;
+    }
+    .todoitems-text{
+        padding-left: 8px;
+        color: #404040;
+        font-size: 11px;
+    }
+    img{ 
+        height: 12px;
+    }
+}
